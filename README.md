@@ -20,7 +20,7 @@ Aerith AI is an advanced AI-driven platform that create personal virtual girlfri
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/OtakuAI.git
+   git clone https://github.com/yourusername/AerithAI.git
    cd Aerith AI
    pip install -r requirements.txt
    ```
