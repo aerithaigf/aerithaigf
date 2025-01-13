@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "Aerith AI"
+version = "1.0.0"
+description = "Aerith AI: A bot that generates custom manga-style PFPs using AI and Twitter API."
+authors = ["Your Name <your-email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/Aerith AI"
+repository = "https://github.com/yourusername/Aerith AI"
+keywords = ["manga", "AI", "Twitter", "profile picture", "anime"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tweepy = "^4.14.0"
+python-dotenv = "^1.0.0"
+Pillow = "^9.5.0"
+torch = "^2.0.1"
+transformers = "^4.31.0"
+diffusers = "^0.14.0"
+redis = "^5.0.0"
+matplotlib = "^3.7.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.1.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
